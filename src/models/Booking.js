@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const BookingSchema = mongoose.Schema({
+const BookingSchema = new mongoose.Schema({
   date: String,
   company: String,
   approved: Boolean,
